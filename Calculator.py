@@ -36,7 +36,7 @@ label_result=Label(root,width=25,height=3,text="",font=("arial",30))
 label_result.pack()
 Button(root,text="C",width=5,height=1,font=("arail",30,"bold"),bd=1,fg="blue",bg="skyblue",command=lambda:clear()).place(x=10,y=150)
 Button(root,text="/",width=5,height=1,font=("arail",30,"bold"),bd=1,fg="grey",bg="white",command=lambda:show("/")).place(x=150,y=150)
-Button(root,text="%",width=5,height=1,font=("arail",30,"bold"),bd=1,fg="grey",bg="White",command=lambda:show("%")).place(x=290,y=150)
+Button(root,text=".",width=5,height=1,font=("arail",30,"bold"),bd=1,fg="grey",bg="White",command=lambda:show(".")).place(x=290,y=150)
 Button(root,text="*",width=5,height=1,font=("arail",30,"bold"),bd=1,fg="grey",bg="White",command=lambda:show("*")).place(x=430,y=150)
 
 Button(root,text="1",width=5,height=1,font=("arail",30,"bold"),bd=1,fg="grey",bg="white",command=lambda:show("1")).place(x=10,y=250)
@@ -52,9 +52,9 @@ Button(root,text="+",width=5,height=1,font=("arail",30,"bold"),bd=1,fg="grey",bg
 Button(root,text="7",width=5,height=1,font=("arail",30,"bold"),bd=1,fg="grey",bg="white",command=lambda:show("7")).place(x=10,y=450)
 Button(root,text="8",width=5,height=1,font=("arail",30,"bold"),bd=1,fg="grey",bg="White",command=lambda:show("8")).place(x=150,y=450)
 Button(root,text="9",width=5,height=1,font=("arail",30,"bold"),bd=1,fg="grey",bg="White",command=lambda:show("9")).place(x=290,y=450)
-Button(root,text="0",width=11,height=1,font=("arail",30,"bold"),bd=1,fg="grey",bg="White",command=lambda:show("0")).place(x=10,y=550)
+Button(root,text="0",width=16,height=1,font=("arail",30,"bold"),bd=1,fg="grey",bg="White",command=lambda:show("0")).place(x=10,y=550)
 
-Button(root,text=".",width=5,height=1,font=("arail",30,"bold"),bd=1,fg="grey",bg="White",command=lambda:show(".")).place(x=290,y=550)
+
 Button(root,text="=",width=5,height=3,font=("arail",30,"bold"),bd=1,fg="grey",bg="orange",command=lambda:calculate()).place(x=430,y=450)
 
 root.mainloop()
